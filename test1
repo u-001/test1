@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="test1.css">
+    <link rel="stylesheet" href="responsive2.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="company-logo">
+        </div>
+        <!-- スマートフォン用メニューアイコンを追加 -->
+        <span class="fa fa-bars menu-icon"></span>
+  
+        <div class="header-right">
+          <a href="#">取扱商品例</a>
+          <a href="#">リクルート</a>
+          <a href="#" class="login">お問い合わせ</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>株式会社●●●</h1>
+        <h1>HPです</h1>
+        <p>通販がメインになります</p>
+        <p>ご覧ください</p>
+        <div class="btn-wrapper">
+            <a href="#" class="btn policy">企業理念</a>
+            <p>～会社案内～</p>
+            <a href="#" class="btn sample">取扱商品例</a>
+            <a href="#" class="btn calendar">営業カレンダー</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>取扱商品例</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="Product1.png">
+              <p>【価格】1000円～</p>
+            </div>
+            <p class="text-contents">詳細は画像をクリック</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="Product2.png">
+              <p>【価格】1000円～</p>
+            </div>
+            <p class="text-contents">詳細は画像をクリック</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="Product1.png">
+              <p>【価格】1000円～</p>
+            </div>
+            <p class="text-contents">詳細は画像をクリック</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="Product2.png">
+              <p>【価格】1000円～</p>
+            </div>
+            <p class="text-contents">詳細は画像をクリック</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>ご不明点等ございましたらお気軽にお問い合わせください</h2>
+          <h3>ご連絡お待ちしております</h3>
+        </div>
+        <span class="btn message">問い合わせる</span>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <img src="company-logo.png">
+        <p>洋服ネット通販はお任せください</p>
+        <div class="footer-list">
+            <ul>
+              <li>【住所】静岡県静岡市葵区●●●</li>
+              <li>【電話】000-0000-000</li>
+              <li>【メール】aaa@bbb.com</li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
